@@ -50,7 +50,7 @@ class MovieList(QListWidget):
     client = MongoHelper()
 
     def __init__(self):
-        super(MovieList, self).__init__()
+        super().__init__()
 
         self.movie_downloader = DownloaderWorker()
 
@@ -116,7 +116,7 @@ class DownloaderWorker(QThread):
 
 class MovieListDelegate(QItemDelegate):
     def __init__(self):
-        super(MovieListDelegate, self).__init__()
+        super().__init__()
 
         self.outline_pen = QPen(QColor("#444444"))
         self.background_brush = QBrush(QColor("black"))

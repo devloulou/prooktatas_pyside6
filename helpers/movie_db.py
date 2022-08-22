@@ -1,6 +1,6 @@
 import tmdbsimple as tmdb
 
-tmdb.API_KEY = '83cbec0139273280b9a3f8ebc9e35ca9'
+tmdb.API_KEY = '454b6ca4172e455fe7a7d8395c10d6d9'
 search = tmdb.Search()
 movies = tmdb.Movies()
 

@@ -10,7 +10,7 @@ from helpers.file_helper import get_files
 
 class MovieLibrary(QMainWindow):
     def __init__(self):
-        super(MovieLibrary, self).__init__()
+        super().__init__()
         self.setWindowTitle("Movie Library")
         self.resize(1000, 800)
         self.showMaximized()
