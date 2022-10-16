@@ -42,6 +42,6 @@ if __name__ == '__main__':
 
     app = QApplication(sys.argv)
     win = BackdropImageWidget()
-    win.set_backdrop_image(r"C:\\Users\\kovac\\Movie_Library\\e1203755-16d4-4cd1-bb44-5a65ec4f3462.jpg")
+    win.set_backdrop_image(r"C:\Users\kovac\movie_meta_images\f91517d0-c89c-4bb4-b360-b154f238b98b_backdrop.jpg")
     win.show()
     app.exec()

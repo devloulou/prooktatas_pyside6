@@ -59,7 +59,7 @@ class MovieDetails(BackdropImageWidget):
         details_layout.addWidget(overview_lbl)
         details_layout.addWidget(self.description)
 
-        main_layout.addWidget(play_btn)
+        title_layout.addWidget(play_btn)
 
         close_btn.clicked.connect(self.close_action)
         play_btn.clicked.connect(self.play_video)

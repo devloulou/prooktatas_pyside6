@@ -3,7 +3,7 @@ from pymongo import MongoClient, ASCENDING
 class MongoHelper:
     database_name = 'movie_meta'
     def __init__(self):
-        self.client = MongoClient("localhost", 27017)
+        self.client = MongoClient("localhost", 27018)
         self.db = self.client[self.database_name]
         self.collection = self.db['movies']
 

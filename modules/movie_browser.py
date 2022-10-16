@@ -1,9 +1,8 @@
 
 import os
 
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QGroupBox, QHBoxLayout, QLineEdit, \
-    QPushButton, QListWidget, QListWidgetItem, QItemDelegate, QStyle, QProgressBar, QTreeWidget, \
-    QTreeWidgetItem, QHeaderView
+from PySide6.QtWidgets import QWidget, QVBoxLayout,  \
+    QListWidget, QListWidgetItem, QItemDelegate, QStyle, QProgressBar
 from PySide6.QtGui import QPen, QBrush, QColor, QPixmap
 from PySide6.QtCore import Qt, QSize, QRect, Signal, QThread
 
